@@ -1,0 +1,4 @@
+1. filtered_train: year, month 변수 추가
+2. filtered_test: year, month 변수 추가
+
+
