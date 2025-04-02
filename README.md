@@ -8,7 +8,7 @@ This project aims to predict electricity usage for different commercial district
 
 ## 🎯 Goal: RMSE (Root Mean Square Error)
 
-RMSE = `$\sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 }$`
+$$ RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 } $$
 - \( y_i \) = Actual electricity usage  
 - \( \hat{y}_i \) = Predicted electricity usage  
 - \( n \) = Number of observations  
