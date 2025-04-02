@@ -1,12 +1,12 @@
-# ⚡️ Electricity Usage Prediction
+##  Electricity Usage Prediction
 
 This project aims to predict electricity usage for different commercial districts based on data provided by the R Institute.
 
-## 📂 Dataset
+## Dataset
 - **TRAIN_DATA.csv**: Training data for model development.  
 - **TEST_DATA.csv**: Evaluation data where predicted values (`y_pred`) should be saved for submission.
 
-## 🎯 Goal: RMSE (Root Mean Square Error)
+## Metric: RMSE (Root Mean Square Error)
 
 $$ RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 } $$
 - $$y_i$$ = Actual electricity usage  
