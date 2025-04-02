@@ -12,8 +12,10 @@ $$ RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 } $$
 - $$y_i$$ = Actual electricity usage  
 - $$ŷ_i$$ = Predicted electricity usage  
 - $$n$$ = Number of observations(number of test data)
+- 
+The goal is to minimize RMSE to improve prediction accuracy.
 
-### 1️⃣ Install Dependencies
+### 1️⃣ Requirements
 ```bash
 pip install -r requirements.txt
 
